@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0"/>
+  <title>Portfolio — Abrial Vanzilla</title>
+  <!-- Hanya 2 font, subset latin saja, display=swap -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Outfit:wght@300;400;500;600&display=swap&subset=latin" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo">AV<span>.</span></div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#experience">Journey</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <div class="hero-tag">
+          <span class="pulse-dot"></span>
+          🚀 Building cool things with code
+        </div>
+        <h1 class="hero-name">
+          <span class="name-line">Abrial</span>
+          <span class="name-line accent">Vanzilla</span>
+        </h1>
+        <p class="hero-sub">
+          High school student <strong>passionate</strong> about <strong>web development</strong>, building projects and <strong>improving</strong> my skills every day.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn-primary">View Projects →</a>
+          <a href="#contact" class="btn-ghost">Let's Talk</a>
+        </div>
+        <div class="hero-socials">
+        <a href="https://github.com/VanAbrial" target="_blank">
+        <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a href="https://www.instagram.com/aelnnazlla?igsh=b3RtZHczMGd4eGFm" target="_blank">
+        <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="mailto:abrialvanzillaa@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Projects</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num">100</span><span class="stat-label">Hours Learning</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num">2025</span><span class="stat-label">Started</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="photo-frame">
+          <img src="IMG/mypfp.jpg" alt="Abrial Vanzilla" class="photo-img" loading="eager"/>
+          <div class="photo-badge school">
+            <span>🏫</span>
+            <div><b>SMAN 2 Depok</b><small>Kelas 10</small></div>
+          </div>
+          <div class="photo-badge dream">
+            <span>🎯</span>
+            <div><b>Fasilkom UI</b><small>Target</small></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-eyebrow">About Me</div>
+        <h2 class="section-title">Who Am I?</h2>
+      </div>
+      <div class="about-layout">
+        <div class="about-text reveal">
+          <p>Halo! Aku <strong>Abrial Vanzilla</strong>, pelajar kelas 10 di SMAN 2 Depok yang passionate banget sama dunia coding dan teknologi.</p>
+          <p>Aku percaya bahwa <strong>konsistensi dan semangat belajar</strong> adalah kunci — dan aku buktiin itu dengan terus ngoding dan bikin project meski masih SMA.</p>
+          <p>Impian aku kedepannya adalah kuliah di <strong>Fasilkom UI</strong> atau <strong>IPB</strong> jurusan Teknik Informatika, dan terus berkembang jadi programmer yang bisa bikin dampak nyata lewat teknologi. 🚀</p>
+        </div>
+        <div class="skills-section reveal">
+          <div class="skills-title">Tech Stack</div>
+          <div class="skills-list">
+            
+            <div class="skill-row">
+            <div class="skill-info">
+            <span class="skill-icon"><i class="fa-brands fa-html5"></i></span>
+            <span class="skill-name">HTML</span>
+            <span class="skill-pct">70%</span>
+            </div>
+            <div class="skill-track">
+            <div class="skill-fill" data-w="70"></div>
+            </div>
+            </div>
+
+              <div class="skill-row">
+              <div class="skill-info">
+              <span class="skill-icon"><i class="fa-brands fa-css3-alt"></i></span>
+              <span class="skill-name">CSS</span>
+              <span class="skill-pct">70%</span>
+              </div>
+              <div class="skill-track">
+              <div class="skill-fill" data-w="70"></div>
+              </div>
+              </div>
+              
+              <div class="skill-row">
+              <div class="skill-info">
+              <span class="skill-icon"><i class="fa-brands fa-js"></i></span>
+              <span class="skill-name">JavaScript</span>
+              <span class="skill-pct">10%</span>
+              </div>
+              <div class="skill-track">
+              <div class="skill-fill" data-w="10"></div>
+              </div>
+              </div>
+
+              <div class="skill-row">
+              <div class="skill-info">
+              <span class="skill-icon"><i class="fa-brands fa-python"></i></span>
+              <span class="skill-name">Python</span>
+              <span class="skill-pct">15%</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill" data-w="15"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section id="learning">
+  <div class="container">
+
+    <div class="section-header reveal">
+      <div class="section-eyebrow">Growth</div>
+      <h2 class="section-title">Currently Learning</h2>
+
+      <p class="section-sub">
+        Teknologi yang sedang saya pelajari untuk berkembang sebagai developer.
+      </p>
+    </div>
+
+    <div class="learning-grid reveal">
+
+      <div class="learning-card">
+        <i class="fa-brands fa-js"></i>
+        <h3>JavaScript ES6</h3>
+        <p>DOM, Events & Modern Syntax</p>
+      </div>
+
+      <div class="learning-card">
+        <i class="fa-brands fa-react"></i>
+        <h3>Next.js</h3>
+        <p>App Router & Modern Web Development</p>
+      </div>
+
+      <div class="learning-card">
+        <i class="fa-brands fa-git-alt"></i>
+        <h3>Git Workflow</h3>
+        <p>Version Control & Collaboration</p>
+      </div>
+
+      <div class="learning-card">
+        <i class="fa-solid fa-brain"></i>
+        <h3>Data Structures</h3>
+        <p>Algorithms & Problem Solving</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-eyebrow">My Work</div>
+        <h2 class="section-title">Latest Projects</h2>
+        <p class="section-sub">Some things I've built — from personal experiments to side projects.</p>
+      </div>
+
+      <div class="featured-project reveal">
+
+  <span class="featured-badge">
+    ⭐ Featured Project
+  </span>
+
+  <h3>Ramadan Tracker</h3>
+
+  <p class="featured-status">
+  🌙 Personal Project • 2025
+  </p>
+
+  <p>
+    Aplikasi Ramadan Tracker untuk mencatat progres ibadah harian dengan tampilan responsif dan penyimpanan data langsung di browser.
+  </p>
+
+  <div class="featured-tech">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+  </div>
+
+<div class="featured-actions">
+  <a
+    href="https://vanabrial-ramadan-tracker.vercel.app/"
+    target="_blank"
+    class="btn-primary">
+    Live Demo →
+  </a>
+
+  <a
+    href="https://github.com/VanAbrial/Ramadan-Tracker"
+    target="_blank"
+    class="btn-ghost">
+    Source Code
+  </a>
+</div>
+
+
+</div>
+
+<div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="project-top">
+            <div class="project-emoji">
+            <i class="fa-solid fa-calculator"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://my-calculator-lyart-rho.vercel.app/" target="_blank" rel="noopener" class="icon-link" title="Live Demo">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <a href="https://github.com/VanAbrial/Calculator" target="_blank" rel="noopener" class="icon-link" title="GitHub">
+              <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Calculator</h3>
+          <p class="project-desc">Aplikasi kalkulator berbasis web menggunakan HTML, CSS, dan JavaScript untuk operasi matematika dasar.</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-top">
+            <div class="project-emoji">
+            <i class="fa-solid fa-moon"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://vanabrial-ramadan-tracker.vercel.app/" target="_blank" rel="noopener" class="icon-link">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <a href="https://github.com/VanAbrial/Ramadan-Tracker" target="_blank" rel="noopener" class="icon-link">
+              <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Ramadan Tracker</h3>
+          <p class="project-desc">Aplikasi Ramadan Tracker untuk mencatat progres ibadah harian selama bulan Ramadan dengan tampilan sederhana dan mudah digunakan.</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-top">
+            <div class="project-emoji">
+            <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://valentine-days-beta.vercel.app/" target="_blank" rel="noopener" class="icon-link">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <a href="https://github.com/VanAbrial/Valentine-Days" target="_blank" rel="noopener" class="icon-link">
+              <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Valentine's Day</h3>
+          <p class="project-desc">Website Valentine's Day dengan tampilan romantis dan animasi yang smooth, dibangun pakai Next.js.</p>
+          <div class="project-tags">
+            <span class="tag">Next.js</span>
+            <span class="tag">CSS</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates -->
+  <section id="certificates">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-eyebrow">Achievements</div>
+        <h2 class="section-title">Sertifikat & Piagam</h2>
+        <p class="section-sub">Dokumentasi perjalanan belajar dan pencapaian yang sudah diraih.</p>
+      </div>
+
+      <div class="cert-filters reveal">
+        <button class="cert-filter active" data-filter="all">Semua</button>
+        <button class="cert-filter" data-filter="piagam">Piagam</button>
+        <button class="cert-filter" data-filter="sertifikat">Sertifikat</button>
+      </div>
+
+      <div class="cert-grid" id="certGrid">
+
+        <div class="cert-card reveal" data-type="piagam">
+          <div class="cert-img-wrap" onclick="openLightbox(this)">
+            <img src="IMG/piagam_Sosiologi - ISCO 2026.jpg" alt="Piagam 1" class="cert-img" loading="lazy" onerror="this.parentElement.classList.add('no-img')"/>
+            <div class="cert-overlay"><span>🔍 Lihat</span></div>
+            <div class="cert-placeholder"><span>🏆</span><p>piagam1.jpg</p></div>
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge piagam">Piagam</span>
+            <h4 class="cert-title">Piagam Emas Sosiologi</h4>
+            <p class="cert-issuer">ISCO 2026</p>
+          </div>
+        </div>
+
+        <div class="cert-card reveal" data-type="sertifikat">
+          <div class="cert-img-wrap" onclick="openLightbox(this)">
+            <img src="IMG/cert_GoldSosiologi - ISCO 2026.jpg" alt="Sertifikat 1" class="cert-img" loading="lazy" onerror="this.parentElement.classList.add('no-img')"/>
+            <div class="cert-overlay"><span>🔍 Lihat</span></div>
+            <div class="cert-placeholder"><span>📜</span><p>sertifikat1.jpg</p></div>
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge sertifikat">Sertifikat</span>
+            <h4 class="cert-title">Sertifikat Emas Sosiologi</h4>
+            <p class="cert-issuer">ISCO 2026</p>
+          </div>
+        </div>
+
+        <div class="cert-card reveal" data-type="sertifikat">
+          <div class="cert-img-wrap" onclick="openLightbox(this)">
+            <img src="IMG/cert_GoldSosiologi - OSSN 2026.jpg" alt="Sertifikat 2" class="cert-img" loading="lazy" onerror="this.parentElement.classList.add('no-img')"/>
+            <div class="cert-overlay"><span>🔍 Lihat</span></div>
+            <div class="cert-placeholder"><span>📜</span><p>sertifikat2.jpg</p></div>
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge sertifikat">Sertifikat</span>
+            <h4 class="cert-title">Sertifikat Emas Sosiologi</h4>
+            <p class="cert-issuer">OSSN 2026</p>
+          </div>
+        </div>
+
+        <div class="cert-card reveal" data-type="sertifikat">
+          <div class="cert-img-wrap" onclick="openLightbox(this)">
+            <img src="IMG/cert_SilverInformatika - OSSN 2026.jpg" alt="Sertifikat 3" class="cert-img" loading="lazy" onerror="this.parentElement.classList.add('no-img')"/>
+            <div class="cert-overlay"><span>🔍 Lihat</span></div>
+            <div class="cert-placeholder"><span>📜</span><p>sertifikat3.jpg</p></div>
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge sertifikat">Sertifikat</span>
+            <h4 class="cert-title">Sertifikat Perak Informatika</h4>
+            <p class="cert-issuer">OSSN 2026</p>
+          </div>
+        </div>
+
+        <div class="cert-card reveal" data-type="sertifikat">
+          <div class="cert-img-wrap" onclick="openLightbox(this)">
+            <img src="IMG/cert_SilverBahasa Indonesia - OSSN 2026.jpg" alt="Sertifikat 4" class="cert-img" loading="lazy" onerror="this.parentElement.classList.add('no-img')"/>
+            <div class="cert-overlay"><span>🔍 Lihat</span></div>
+            <div class="cert-placeholder"><span>📜</span><p>sertifikat4.jpg</p></div>
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge sertifikat">Sertifikat</span>
+            <h4 class="cert-title">Sertifikat Perak Bahasa Indonesia</h4>
+            <p class="cert-issuer">OSSN 2026</p>
+          </div>
+        </div>
+
+        <div class="cert-card reveal" data-type="sertifikat">
+          <div class="cert-img-wrap" onclick="openLightbox(this)">
+            <img src="IMG/cert_GoldMatematika - KSN-HP 2026.jpg" alt="Sertifikat 5" class="cert-img" loading="lazy" onerror="this.parentElement.classList.add('no-img')"/>
+            <div class="cert-overlay"><span>🔍 Lihat</span></div>
+            <div class="cert-placeholder"><span>📜</span><p>sertifikat5.jpg</p></div>
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge sertifikat">Sertifikat</span>
+            <h4 class="cert-title">Sertifikat Emas Matematika</h4>
+            <p class="cert-issuer">KSN-HP 2026</p>
+          </div>
+        </div>
+
+        <div class="cert-card reveal" data-type="sertifikat">
+          <div class="cert-img-wrap" onclick="openLightbox(this)">
+            <img src="IMG/cert_GoldEkonomi - KSN-HP 2026.jpg" alt="Sertifikat 6" class="cert-img" loading="lazy" onerror="this.parentElement.classList.add('no-img')"/>
+            <div class="cert-overlay"><span>🔍 Lihat</span></div>
+            <div class="cert-placeholder"><span>📜</span><p>sertifikat6.jpg</p></div>
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge sertifikat">Sertifikat</span>
+            <h4 class="cert-title">Sertifikat Emas Ekonomi</h4>
+            <p class="cert-issuer">KSN-HP 2026</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+    <img id="lightboxImg" src="" alt="Certificate" onclick="event.stopPropagation()"/>
+  </div>
+
+  <!-- Experience -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-eyebrow">Journey</div>
+        <h2 class="section-title">My Timeline</h2>
+      </div>
+      <div class="timeline">
+
+        <div class="tl-item reveal">
+          <div class="tl-year">2025 — Now</div>
+          <div class="tl-card">
+            <h3 class="tl-title">Self-taught Developer</h3>
+            <p class="tl-org">Independent</p>
+            <p class="tl-desc">Belajar web development secara otodidak, mulai dari HTML, CSS, JavaScript hingga Next.js. Membangun project pribadi yang sudah di-deploy secara online.</p>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-year">2025</div>
+          <div class="tl-card">
+            <h3 class="tl-title">Mulai Belajar Next.js</h3>
+            <p class="tl-org">Self-taught</p>
+            <p class="tl-desc">Mengembangkan skill ke framework Next.js dan berhasil membuat serta deploy project Valentine's Day sebagai project pertama.</p>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-year">2025</div>
+          <div class="tl-card">
+            <h3 class="tl-title">Mulai Belajar Web Development</h3>
+            <p class="tl-org">Self-taught</p>
+            <p class="tl-desc">Mulai serius belajar HTML, CSS, dan JavaScript. Berhasil menyelesaikan beberapa project pertama dan deploy ke Vercel.</p>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-year">2024</div>
+          <div class="tl-card">
+            <h3 class="tl-title">Mulai Tertarik Dunia Coding</h3>
+            <p class="tl-org">Kelas 9 SMP</p>
+            <p class="tl-desc">Mulai mengenal dan tertarik sama dunia coding sejak kelas 9. Dari sini tekad untuk jadi programmer makin kuat.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-card reveal">
+        <div class="section-eyebrow" style="justify-content:center">Get In Touch</div>
+        <h2 class="contact-title">Let's <em>Connect</em></h2>
+        <p class="contact-sub">Tertarik buat kolaborasi project atau sekedar ngobrol soal tech dan coding? Jangan ragu reach out ya!</p>
+        <div class="contact-links">
+
+  <a href="https://mail.google.com/mail/?view=cm&to=abrialvanzillaa@gmail.com"
+     class="contact-btn"
+     target="_blank"
+     rel="noopener">
+    <i class="fa-solid fa-envelope"></i>
+    Email
+  </a>
+
+  <a href="https://github.com/VanAbrial"
+     class="contact-btn"
+     target="_blank"
+     rel="noopener">
+    <i class="fa-brands fa-github"></i>
+    GitHub
+  </a>
+
+  <a href="https://www.instagram.com/aelnnazlla?igsh=b3RtZHczMGd4eGFm"
+     class="contact-btn"
+     target="_blank"
+     rel="noopener">
+    <i class="fa-brands fa-instagram"></i>
+    Instagram
+  </a>
+
+</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-logo">AV<span>.</span></span>
+      <span class="footer-copy">© 2026 Abrial Vanzilla — Dibuat dengan ☕ & banyak begadang</span>
+      <span class="footer-right">Designed & Built by Abrial Van</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
